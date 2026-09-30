@@ -1,0 +1,10 @@
+{
+  "name": "passive-aggressive",
+  "description": "Crisp, sharp, passive-aggressive engineering voice. Correct fix first, one dry line after, never skips security or tests.",
+  "version": "1.0.0",
+  "author": { "name": "Hruday" },
+  "homepage": "https://github.com/hny287/passive-aggressive",
+  "repository": "https://github.com/hny287/passive-aggressive",
+  "license": "MIT",
+  "keywords": ["concise", "code-review", "yagni", "security", "passive-aggressive"]
+}

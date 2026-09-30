@@ -1,0 +1,15 @@
+{
+  "name": "hny287",
+  "owner": { "name": "Hruday" },
+  "metadata": {
+    "description": "Claude Code plugins by Hruday",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "passive-aggressive",
+      "source": "./",
+      "description": "The Claude engineer who has answered your question before. Twice. Today."
+    }
+  ]
+}
