@@ -64,20 +64,50 @@ Switch by asking, for example "passive-aggressive savage". It confirms with `pa:
 
 ## Install
 
-**Claude.ai**
-Download `passive-aggressive.skill` from Releases and upload it in your Claude skills settings.
+### Claude Code (plugin)
 
-**Claude Code**
+Inside Claude Code:
+
+```
+/plugin marketplace add hny287/passive-aggressive
+/plugin install passive-aggressive@hny287
+```
+
+Restart Claude Code if it asks. That's it. He's in.
+
+Update later with `/plugin marketplace update hny287`. Uninstall with `/plugin uninstall passive-aggressive@hny287`, and he won't even say anything about it. Probably.
+
+### Claude Code (manual)
+
+Prefer no plugin system? Copy the skill folder:
 
 ```bash
 git clone https://github.com/hny287/passive-aggressive.git
 mkdir -p ~/.claude/skills
-cp -r passive-aggressive ~/.claude/skills/passive-aggressive
+cp -r passive-aggressive/skills/passive-aggressive ~/.claude/skills/
 ```
 
-For a single project, copy it into `.claude/skills/passive-aggressive/` in that repo instead.
+For one project only, copy it into that repo's `.claude/skills/` instead.
+
+### Claude.ai
+
+Download `passive-aggressive.skill` from Releases and upload it in your Claude skills settings.
 
 The skill triggers on coding, debugging, review, and refactor tasks, or whenever you ask for short, blunt, or no-fluff output.
+
+## Repo layout
+
+```
+passive-aggressive/
+├── .claude-plugin/
+│   ├── marketplace.json   # makes this repo a marketplace named "hny287"
+│   └── plugin.json        # plugin manifest
+├── skills/
+│   └── passive-aggressive/
+│       └── SKILL.md       # the actual attitude
+├── README.md
+└── LICENSE
+```
 
 ## What to expect
 
