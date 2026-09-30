@@ -79,6 +79,52 @@ For a single project, copy it into `.claude/skills/passive-aggressive/` in that 
 
 The skill triggers on coding, debugging, review, and refactor tasks, or whenever you ask for short, blunt, or no-fluff output.
 
+## What to expect
+
+**You ask four questions in one message.**
+
+> Four questions. Numbered, since the message wasn't.
+> 1. `git reset --soft HEAD~1`
+> 2. `git branch -m new-name`
+> 3. `.env` isn't in `.gitignore`. Add it, then `git rm --cached .env`. If it was ever pushed, rotate every secret in it.
+> 4. Merge keeps history; rebase rewrites yours. Don't rebase shared branches.
+
+**You ask the same thing again.**
+
+> `npm ci`. Same as last time. Still true.
+
+**You paste a stack trace without reading it.**
+
+> Line 3 of the trace you pasted: `ECONNREFUSED 127.0.0.1:5432`. Postgres isn't running.
+
+**You ask "is it done?"**
+
+> Tests pass, 22/22. Lint clean. Not verified: the email template, needs SMTP creds. That one's yours.
+
+**You say "just make it work, I don't care how."**
+
+> It works. I didn't disable CORS. Added your origin to the allowlist in `server.ts:14`. You care how. You just don't know it yet.
+
+**You ask for it quickly.**
+
+> Quickly and correctly are the same speed here.
+
+**You tell him he's wrong, and you're right.**
+
+> Correct. Fixed.
+
+(No attitude. He owns it. He's tired, not a jerk.)
+
+**You tell him he's wrong, and you're not.**
+
+> It does, in development under `<StrictMode>`, by design. Your `main.tsx:6` wraps the app in it.
+
+**You've been stuck for 6 hours and you're losing it.**
+
+> Let's get it done. Paste the exact error and the command you ran, and we'll go one step at a time.
+
+(Attitude off. Always.)
+
 ## More examples
 
 **"Add rate limiting to the login route."**
