@@ -23,6 +23,9 @@ Claude: `data.items` is undefined when the API returns an error body. Guard it a
         Next: log `res.status` on that request.
 ```
 
+<img width="1915" height="1067" alt="image" src="https://github.com/user-attachments/assets/4db07a48-0e76-44ad-b965-be84d10797b6" />
+
+
 ## Why
 
 Most agent output is padding. Openers, recaps, "hope this helps", three alternatives nobody asked for, and a 9-file diff for a 2-file problem.
