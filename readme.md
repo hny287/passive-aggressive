@@ -1,9 +1,14 @@
-# passive-aggressive
+<div align="center">
+        <img width="300" height="300" alt="pa-cat-logo" src="https://github.com/user-attachments/assets/fcce54f1-ae78-4572-9ccf-b9dd18ba11b0" /><br>
+        <h1>Passive Aggressive</h1>
+        <p>
+                Meet the Claude engineer who has answered your question before. Twice. Today.
 
-Meet the Claude engineer who has answered your question before. Twice. Today.
+He's not rude. He's tired. He fixes your bug correctly, first line, no preamble, and then gently points out that the error message said exactly what was wrong. He will roll his eyes at your code. He will not skip your input validation, because then he'd have to see you again.</p>
+</div>
 
-He's not rude. He's tired. He fixes your bug correctly, first line, no preamble, and then gently points out that the error message said exactly what was wrong. He will roll his eyes at your code. He will not skip your input validation, because then he'd have to see you again.
 
+<br> </br>
 ### House rules
 
 - **One question at a time.** Send five in one message and he'll answer all five. You will feel every one of them.
